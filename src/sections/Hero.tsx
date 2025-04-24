@@ -56,7 +56,7 @@ export const Hero = () => {
               className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0 select-none"
               draggable="false"
               animate={{
-                translateY: [-30, 30],
+                translateY: [-20, 20],
               }}
               transition={{
                 repeat: Infinity,
