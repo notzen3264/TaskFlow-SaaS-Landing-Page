@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    * {
+        @apply select-none transition-all duration-500;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .btn {
+        @apply px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight transition-all duration-200 ease-in-out active:scale-95;
+    }
+
+    .btn-primary {
+        @apply bg-black text-white;
+    }
+
+    .btn-primary:hover {
+        @apply bg-black/80;
+    }
+
+    .btn-text {
+        @apply text-black bg-transparent backdrop-blur-md;
+    }
+
+    .btn-text:hover {
+        @apply bg-white/40;
+    }
+
+    header a {
+        @apply text-black/60 transition-all active:scale-95 duration-150 ease-in-out;
+    }
+
+    header a:hover {
+        @apply text-black/80;
+    }
+
+    footer a {
+        @apply text-[#bcbcbc] transition-all active:scale-95 duration-150 ease-in-out;
+    }
+
+    footer a:hover {
+        @apply text-[#e9e9e9];
+    }
+
+    .logo-ticker-image {
+        @apply h-8 w-auto;
+    }
+
+    .tag {
+        @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
+    }
+
+    .title {
+        @apply font-bold tracking-tighter bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text;
+    }
+
+    .description {
+        @apply text-[#010D3E] tracking-tight;
+    }
+
+    .section-details-wrapper {
+        @apply max-w-[540px] mx-auto transition-none;
+    }
+
+    .card {
+        @apply p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full transition-none;
+    }
+
+    .card:hover {
+        @apply shadow-[0_14px_28px_#EAEAEA] transition-all duration-300;
+    }
+
+    .magic-blur {
+        @apply inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:blur before:h-full before:w-full before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute before:opacity-75;
+    }
+
+    img {
+        @apply transition-none;
+    }
+}
