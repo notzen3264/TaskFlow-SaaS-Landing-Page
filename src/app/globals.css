@@ -5,9 +5,6 @@
 @layer components {
     * {
         @apply select-none transition-all duration-500;
-    }
-
-    html {
         scroll-behavior: smooth;
     }
 
