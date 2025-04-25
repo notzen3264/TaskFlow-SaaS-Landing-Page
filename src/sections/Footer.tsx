@@ -37,7 +37,7 @@ export const Footer = () => {
           <a href="#"><Pinterest className="active:scale-95"/></a>
           <a href="#"><YouTube className="active:scale-95"/></a>
         </div>
-        <p className="mt-6">&copy; {new Date().getFullYear()} Taskflow Inc. All rights reserved.</p>
+        <p className="mt-6">&copy; {new Date().getFullYear()} Taskflow Inc. All rights reserved. This is only a demonstration landing page site.</p>
       </div>
     </footer>
   );
