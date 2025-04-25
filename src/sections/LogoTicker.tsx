@@ -14,7 +14,7 @@ export const LogoTicker = () => {
     <div className="py-8 md:py-12 bg-white">
       <div className="container">
         <div className="section-details-wrapper text-center">
-          <h2 className="title text-center text-2xl md:text-[30px] md:leading-[34px] mt-5">Trusted by teams from the world's leading organizations</h2>
+          <h2 className="title text-center text-2xl md:text-[30px] md:leading-[34px] mt-5">Trusted by teams from the world&apos;s leading organizations</h2>
         </div>
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)] mt-8">
           <motion.div
